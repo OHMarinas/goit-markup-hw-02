@@ -119,6 +119,7 @@ body {
 
 .main-footer-paragraph {
     color: #F4F4FD;
+    width: 264px;
 }
 
 .main-footer-web:hover .main-footer-span-web {
@@ -192,3 +193,68 @@ body {
     letter-spacing: 0.4px;
 }
 /*Porfolio-Body-End*/
+
+/*Studio-Body*/
+.studio-main-section {
+    width: 1440px;
+    height: 300px;
+    background-color: #2E2F42;
+    text-align: center;
+}
+
+.studio-main-section-title {
+    color: #FFF;
+    font-size: 56px;
+}
+
+
+.studio-button {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 0.64px;
+    border-radius: 4px;
+    background: var(--iris, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.features-list {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 0.4px;
+}
+
+.services-heading {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11em;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.team-heading {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11em;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.team-heading-members-name {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 0.4px;
+}
+/*Studio-Body-End*/
