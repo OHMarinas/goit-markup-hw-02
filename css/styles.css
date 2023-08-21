@@ -1,0 +1,178 @@
+body {
+    font-family: Roboto, sans-serif;
+    color: #2E2F42;
+}
+
+.main-header-span-web {
+    color: var(--iris, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.167em;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.main-header-span-studio {
+    color: #2E2F42;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.167em;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.main-header-nav a:hover { 
+    color: #404BBF; 
+}
+
+.main-header-nav a:focus {
+    color: #404BBF;
+}
+
+.main-header-web:hover .main-header-span-web {
+    color: #404BBF;
+}
+
+.main-header-web:hover .main-header-span-studio {
+    color: #404BBF;
+}
+
+.main-header-web:focus .main-header-span-web {
+    color: #404BBF;
+}
+
+.main-header-web:focus .main-header-span-studio {
+    color: #404BBF;
+}
+
+.button {
+    font-family: roboto;
+    color: var(--iris, #4D5AE5);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 0.64px;
+    border-radius: 4px;
+    border: 1px solid var(--cornflower, #E7E9FC);
+    background: var(--cloud, #F4F4FD);
+}
+
+.button:hover {
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 4px;
+    background: var(--ocean, #404BBF);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
+.button:focus {
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 4px;
+    background: var(--ocean, #404BBF);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
+.main-header-address a:hover {
+    color: #404BBF;
+}
+
+.main-header-address a:focus {
+    color: #404BBF;
+}
+
+.main-footer-web:hover .main-footer-span-web {
+    color: #404BBF;
+}
+
+.main-footer-web:hover .main-footer-span-studio {
+    color: #404BBF;
+}
+
+.main-footer-web:focus .main-footer-span-web {
+    color: #404BBF;
+}
+
+.main-footer-web:focus .main-footer-span-studio {
+    color: #404BBF;
+}
+
+.main-header-nav-menu {
+    color: #2E2F42;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 0.32px;
+}
+
+.main-header-web {
+    text-decoration: none;
+}
+
+.main-footer-web {
+    text-decoration: none;
+}
+
+.main-header-address-menu {
+    text-decoration: none;
+    font-style: normal;
+    color: var(--slate, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 0.32px;
+}
+
+.main-footer-span-web {
+    color: var(--iris, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.167em;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.main-footer-span-studio {
+    color: #2E2F42;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.167em;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.row-one-services {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 0.4px;
+}
+
+.row-two-services {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 0.4px;
+}
+
+.row-three-services {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 0.4px;
+}
