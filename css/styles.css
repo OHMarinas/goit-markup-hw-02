@@ -21,7 +21,7 @@
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Robot', sans-serif;
 }
 
 img {
@@ -36,6 +36,13 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 /*Header*/
+
+.main-header-web {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.167em;
+    letter-spacing: 0.54px
+}
 
 .main-header-span-web {
     color: var(--iriscolor);
@@ -55,10 +62,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
     line-height: 1.167em;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-}
-
-.main-header-web {
-    text-decoration: none;
 }
 
 .main-header-nav-menu {
@@ -121,6 +124,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .main-footer-web {
     text-decoration: none;
+    font-size: 18px;
+    line-height: 1.167em;
+    letter-spacing: 0.54px;
 }
 
 .main-footer-span-web {
@@ -145,7 +151,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .main-footer-paragraph {
     color: var(--cloudcolor);
-    width: 264px;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.32px;
 }
 
 .main-footer-web:hover .main-footer-span-web {
@@ -177,15 +185,18 @@ h1, h2, h3, h4, h5, h6, p, ul {
     border: 1px solid var(--cornflowercolor);
     background: var(--cloudcolor);
     padding: 12px 24px;
+    font-family: inherit;
+    outline: none;
 }
 
 .button:hover {
     color: var(--whitecolor);
     cursor: pointer;
     border-radius: 4px;
-    background: var(--ocean, #404BBF);
+    background: var(--oceancolor);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
     padding: 12px 24px;
+    border-color: var(--oceancolor);
 }
 
 .button:focus {
@@ -195,6 +206,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     background: var(--oceancolor);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
     padding: 12px 24px;
+    border-color: var(--oceancolor);
 }
 
 .row-one-services {
@@ -203,6 +215,12 @@ h1, h2, h3, h4, h5, h6, p, ul {
     font-weight: 500;
     line-height: 1.2em;
     letter-spacing: 0.4px;
+}
+.row-one-services-type {
+    color: var(--slatecolor);
+    font-size: 16px;
+     line-height: 1.5em;
+    letter-spacing: 0.32px;
 }
 
 .row-two-services {
@@ -213,12 +231,26 @@ h1, h2, h3, h4, h5, h6, p, ul {
     letter-spacing: 0.4px;
 }
 
+.row-two-services-type {
+    color: var(--slatecolor);
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.32px;
+}
+
 .row-three-services {
     font-size: 20px;
     color: var(--navyblue);
     font-weight: 500;
     line-height: 1.2em;
     letter-spacing: 0.4px;
+}
+
+.row-three-services-type {
+    color: var(--slatecolor);
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.32px;
 }
 /*Porfolio-Body-End*/
 
@@ -233,6 +265,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .studio-main-section-title {
     color: var(--whitecolor);
     font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 1.12px;
 }
 
 
@@ -249,6 +283,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     font-family: inherit;
     outline: none;
     border: unset;
+    padding: 16px 32px;
 }
 
 .features-list {
@@ -261,13 +296,14 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .features-list-description {
     color: var(--slatecolor);
+    font-size: 16px;
     line-height: 1.5em;
+    letter-spacing: 0.32px;
 }
 
 .services-heading {
     color: var(--navyblue);
     text-align: center;
-    font-family: Roboto;
     font-size: 36px;
     line-height: 1.11em;
     letter-spacing: 0.72px;
@@ -277,7 +313,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .team-heading {
     color: var(--navyblue);
     text-align: center;
-    font-family: Roboto;
     font-size: 36px;
     line-height: 1.11em;
     letter-spacing: 0.72px;
@@ -294,6 +329,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .team-heading-members-name-role {
     color: var(--slatecolor);
+    font-size: 16px;
     line-height: 1.5em;
     letter-spacing: 0.32px;
 } 
