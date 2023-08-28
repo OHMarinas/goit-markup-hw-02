@@ -21,7 +21,7 @@
 }
 
 body {
-    font-family: 'Robot', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 img {
@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     text-transform: uppercase;
 }
 
-.main-header-nav-menu {
+.main-header-nav-link {
     color: var(--navyblue);
     text-decoration: none;
     font-size: 16px;
@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     letter-spacing: 0.32px;
 }
 
-.main-header-address-menu {
+.main-header-address-link {
     text-decoration: none;
     font-style: normal;
     color: var(--slatecolor);
@@ -99,22 +99,18 @@ h1, h2, h3, h4, h5, h6, p, ul {
     color: var(--oceancolor);
 }
 
-.main-header-nav a:hover { 
+.main-header-nav-link.active { 
     color: var(--oceancolor);
 }
 
-.main-header-nav a:focus {
+.main-header-nav-link:hover, .main-header-nav-link:focus  {
     color: var(--oceancolor);
 }
 
-
-.main-header-address a:hover {
+.main-header-address a:hover, .main-header-address a:focus {
     color: var(--oceancolor);
 }
 
-.main-header-address a:focus {
-    color: var(--oceancolor);
-}
 /*Header-End*/
 
 /*Footer*/
@@ -174,7 +170,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 /*Footer-end*/
 
 /*Porfolio-Body*/
-.button {
+.options-item-button {
     font-family: roboto;
     color: var(--iriscolor);
     font-size: 16px;
@@ -189,7 +185,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     outline: none;
 }
 
-.button:hover {
+.options-item-button:hover, .options-item-button:focus {
     color: var(--whitecolor);
     cursor: pointer;
     border-radius: 4px;
@@ -199,54 +195,14 @@ h1, h2, h3, h4, h5, h6, p, ul {
     border-color: var(--oceancolor);
 }
 
-.button:focus {
-    color: var(--whitecolor);
-    cursor: pointer;
-    border-radius: 4px;
-    background: var(--oceancolor);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-    padding: 12px 24px;
-    border-color: var(--oceancolor);
-}
-
-.row-one-services {
+.projects-item-title {
     font-size: 20px;
     color: var(--navyblue);
     font-weight: 500;
     line-height: 1.2em;
     letter-spacing: 0.4px;
 }
-.row-one-services-type {
-    color: var(--slatecolor);
-    font-size: 16px;
-     line-height: 1.5em;
-    letter-spacing: 0.32px;
-}
-
-.row-two-services {
-    font-size: 20px;
-    color: var(--navyblue);
-    font-weight: 500;
-    line-height: 1.2em;
-    letter-spacing: 0.4px;
-}
-
-.row-two-services-type {
-    color: var(--slatecolor);
-    font-size: 16px;
-    line-height: 1.5em;
-    letter-spacing: 0.32px;
-}
-
-.row-three-services {
-    font-size: 20px;
-    color: var(--navyblue);
-    font-weight: 500;
-    line-height: 1.2em;
-    letter-spacing: 0.4px;
-}
-
-.row-three-services-type {
+.projects-item-description {
     color: var(--slatecolor);
     font-size: 16px;
     line-height: 1.5em;
@@ -269,7 +225,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
     letter-spacing: 1.12px;
 }
 
-
 .studio-button {
     color: var(--whitecolor);
     font-family: Roboto;
@@ -286,7 +241,11 @@ h1, h2, h3, h4, h5, h6, p, ul {
     padding: 16px 32px;
 }
 
-.features-list {
+.studio-button:hover, .studio-button:focus {
+    background-color: var(--oceancolor);
+}
+
+.features-item-heading {
     font-size: 20px;
     color: var(--navyblue);
     font-weight: 500;
@@ -294,7 +253,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     letter-spacing: 0.4px;
 }
 
-.features-list-description {
+.features-item-description {
     color: var(--slatecolor);
     font-size: 16px;
     line-height: 1.5em;
@@ -319,7 +278,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     text-transform: capitalize;
 }
 
-.team-heading-members-name {
+.team-item-name {
     color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
@@ -327,7 +286,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     letter-spacing: 0.4px;
 }
 
-.team-heading-members-name-role {
+.team-item-role {
     color: var(--slatecolor);
     font-size: 16px;
     line-height: 1.5em;
